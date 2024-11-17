@@ -8,7 +8,11 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-# User.create(email: "usuario1@gmail.com", name: "Usuario 1", auth_token: "asdf9w87r98w77sf98dfs968df")
-# User.create(email: "usuario2@gmail.com", name: "Usuario 2", auth_token: "we5t787ert56we76f76g5hf76g")
+User.create(email: "usuario1@gmail.com", name: "Usuario 1", auth_token: "asdf9w87r98w77sf98dfs968df")
+User.create(email: "usuario2@gmail.com", name: "Usuario 2", auth_token: "we5t787ert56we76f76g5hf76g")
 
-Post.create(title: "Post 1", contect: "This is my first post", published: true, user_id: 1)
+Post.create(title: "Post 1", content: "This is my first post", published: true, user_id: 1)
+Post.create(title: "Post 2", content: "This is my second post", published: true, user_id: 2)
+Post.create(title: "Post 3", content: "This is my third post", published: true, user_id: 1)
+Post.create(title: "Post 4", content: "This is my fourth post", published: true, user_id: 2)
+Post.create(title: "Post 5", content: "This is my fifth post", published: true, user_id: 1)
